@@ -1,1 +1,210 @@
-hello word!!!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syamsu Rizal | Senior MEP Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Centered Navigation -->
+    <nav class="border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-8 py-6">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-semibold">Syamsu Rizal</div>
+                
+                <div class="flex items-center gap-12 text-sm font-medium">
+                    <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+                    <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                    <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="https://drive.google.com" target="_blank" class="hover:text-blue-600 transition-colors">CV</a>
+                </div>
+                
+                <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"
+                        class="bg-black text-white px-6 py-3 rounded-2xl font-medium hover:bg-gray-800 transition-all">
+                    Get In Touch
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen pt-24 pb-20 flex items-center">
+        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-12 gap-16 items-center">
+            
+            <!-- Left Content -->
+            <div class="md:col-span-7 space-y-12">
+                <div class="flex items-center gap-3">
+                    <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full"></div>
+                    <p class="text-sm text-gray-500 font-medium">Senior MEP Engineer</p>
+                </div>
+
+                <h1 class="text-6xl md:text-7xl leading-none font-semibold tracking-tighter">
+                    Designing efficient,<br>reliable, and sustainable<br>building systems
+                </h1>
+
+                <div class="max-w-lg text-lg text-gray-600">
+                    As a Senior MEP Engineer with strong technical expertise, I create integrated mechanical, electrical, and plumbing systems that prioritize energy efficiency, reliability, and sustainability.
+                </div>
+
+                <!-- Buttons -->
+                <div class="flex items-center gap-4 pt-6">
+                    <a href="#projects"
+                       class="inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-2xl font-semibold hover:bg-gray-800 transition-all">
+                        View My Projects 
+                        <span class="text-lg">→</span>
+                    </a>
+                    
+                    <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"
+                            class="border border-gray-300 px-8 py-4 rounded-2xl font-semibold hover:bg-gray-50 transition-all">
+                        Email Me
+                    </button>
+                </div>
+
+                <!-- Social Media Icons -->
+                <div class="flex items-center gap-7 pt-8">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-[#0A66C2] hover:text-[#0A66C2]/80 text-3xl transition-colors">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="text-gray-900 hover:text-gray-700 text-3xl transition-colors">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/yourprofile" target="_blank" class="text-black hover:text-gray-700 text-3xl transition-colors">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/yourprofile" target="_blank" class="text-[#E4405F] hover:text-[#E4405F]/80 text-3xl transition-colors">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/yourprofile" target="_blank" class="text-[#1877F2] hover:text-[#1877F2]/80 text-3xl transition-colors">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Side - Profile Photo (Static + Transparent Ready) -->
+            <div class="md:col-span-5 flex justify-center md:justify-end">
+                <div class="relative w-full max-w-md">
+                    <div class="bg-white rounded-3xl p-6 shadow-2xl">
+                        <img src="assets/profile.png" 
+                             alt="Syamsu Rizal"
+                             class="w-full rounded-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-28 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-7">
+                    <h2 class="text-5xl font-semibold mb-8">About Me</h2>
+                    <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
+                        <p>
+                            I am a dedicated Senior MEP Engineer with extensive experience in designing integrated Mechanical, Electrical, and Plumbing systems for commercial, healthcare, hospitality, and industrial projects.
+                        </p>
+                        <p>
+                            My expertise lies in creating energy-efficient, reliable, and sustainable building systems while ensuring seamless coordination across all disciplines. I specialize in HVAC design, electrical power distribution, plumbing & fire protection systems, load calculations, and BIM modeling.
+                        </p>
+                        <p>
+                            Passionate about sustainable engineering practices, I strive to deliver solutions that not only meet technical requirements but also contribute to environmental responsibility and long-term operational cost savings.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="md:col-span-5">
+                    <div class="bg-white p-8 rounded-3xl shadow-sm">
+                        <h3 class="font-semibold text-xl mb-6">Core Expertise</h3>
+                        <ul class="space-y-4 text-gray-700">
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> HVAC Systems Design</li>
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> Electrical Power & Lighting</li>
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> Plumbing & Fire Protection</li>
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> Energy Modeling & Load Calculations</li>
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> Revit & AutoCAD BIM</li>
+                            <li class="flex gap-3"><span class="text-emerald-500">✓</span> Sustainable Design (LEED)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="text-5xl font-semibold mb-16">Featured Projects</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="project-card">
+                    <div class="overflow-hidden rounded-3xl aspect-video bg-gray-100">
+                        <img src="assets/project1.jpg" class="w-full h-full object-cover" alt="Grand Pacific Hotel">
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold">Grand Pacific Luxury Hotel</h3>
+                        <p class="text-gray-600 mt-3">Complete MEP design for a 25-storey 5-star hotel with centralized HVAC and intelligent lighting systems.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="overflow-hidden rounded-3xl aspect-video bg-gray-100">
+                        <img src="assets/project2.jpg" class="w-full h-full object-cover" alt="Aceh Medical Center">
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold">Aceh Regional Medical Center</h3>
+                        <p class="text-gray-600 mt-3">MEP systems for a 300-bed modern hospital including medical gas and redundant power backup.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="overflow-hidden rounded-3xl aspect-video bg-gray-100">
+                        <img src="assets/project3.jpg" class="w-full h-full object-cover" alt="Banda Aceh Tower">
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold">Banda Aceh Tower</h3>
+                        <p class="text-gray-600 mt-3">35-storey intelligent office building with district cooling and smart energy management systems.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="overflow-hidden rounded-3xl aspect-video bg-gray-100">
+                        <img src="assets/project4.jpg" class="w-full h-full object-cover" alt="Aceh Data Center">
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-semibold">Aceh Data Center Phase II</h3>
+                        <p class="text-gray-600 mt-3">Tier III data center with precision cooling, UPS systems, and redundant electrical infrastructure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-28 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-8 text-center">
+            <h2 class="text-5xl font-semibold mb-6">Let's work together</h2>
+            <p class="text-gray-600 max-w-md mx-auto mb-10">
+                Have a new project or opportunity? I'm currently available for collaboration in MEP engineering.
+            </p>
+            <a href="mailto:syamsurizal.mep@gmail.com" 
+               class="inline-block bg-black text-white px-10 py-5 rounded-2xl font-medium hover:bg-gray-800 transition-all">
+                Send me an email
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
